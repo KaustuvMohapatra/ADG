@@ -1,2 +1,2 @@
 # ADG
-This repository is dedeicated to the tasks provided for the ML Domain!
+This repository is dedicated to the tasks provided for the ML Domain!
