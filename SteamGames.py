@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier #This module is used for lea
 from sklearn.svm import SVC #It contains SVM(Support Vector Machine) and finds the hyperplane that best separates the data points into different classes.
 from sklearn.metrics import accuracy_score #This module checks for accuracy of imported algorithms
 
-data=pd.read_csv("C:/Users/kaust/OneDrive/Desktop/AIML ADG/SteamGames/steam-games.csv")
+data=pd.read_csv("https://github.com/KaustuvMohapatra/ADG/blob/main/steam-games.csv")
 
 #Data Description
 print(data.head())  #Prints out first five row values
