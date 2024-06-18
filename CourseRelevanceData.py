@@ -10,7 +10,7 @@ from sklearn.ensemble import RandomForestClassifier #This module is used for lea
 from sklearn.svm import SVC #It contains SVM(Support Vector Machine) and finds the hyperplane that best separates the data points into different classes.
 from sklearn.metrics import accuracy_score #This module checks for accuracy of imported algorithms
 
-filepath="C:/Users/kaust/OneDrive/Desktop/AIML ADG/CourseRel/Course Relevance Dataset.csv"
+filepath="https://github.com/KaustuvMohapatra/ADG/blob/main/Course%20Relevance%20Dataset.csv"
 try:
     data = pd.read_csv(filepath, encoding='latin1')
 except UnicodeDecodeError:
